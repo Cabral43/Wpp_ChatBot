@@ -1,0 +1,86 @@
+# ====================
+# Python/Virtualenv
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Se você usa venv nomeado (venv, .venv, env, .env, etc)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de lock do pipenv ou poetry
+Pipfile.lock
+poetry.lock
+
+# ====================
+# IDEs/Editor
+# ====================
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# Arquivos de configuração/local
+# ====================
+# Variáveis de ambiente
+.env
+.env.*
+# Config do ngrok (caso tenha)
+ngrok.yml
+
+# ====================
+# Logs e relatórios
+# ====================
+*.log
+logs/
+*.log.*
+# Uvicorn/Gunicorn logs, coverage, etc
+coverage.*
+htmlcov/
+*.cover
+*.py,cover
+*.db
+*.sqlite3
+
+# ====================
+# Sistema operacional
+# ====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ====================
+# Arquivos que podem ser gerados automaticamente
+# ====================
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ====================
+# Docker
+# ====================
+# Se tiver Docker
+docker-compose.override.yml
+.env.docker
+
+# ====================
+# Outros
+# ====================
+*.pyc
