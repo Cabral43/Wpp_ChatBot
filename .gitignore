@@ -34,6 +34,7 @@ poetry.lock
 # Variáveis de ambiente
 .env
 .env.*
+!.env.example
 # Config do ngrok (caso tenha)
 ngrok.yml
 
